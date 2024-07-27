@@ -9,7 +9,24 @@ require (
 )
 
 require (
+	github.com/fortytw2/leaktest v1.3.0
+	github.com/gin-contrib/cors v1.7.2
+	github.com/gin-contrib/gzip v1.0.1
 	github.com/gin-gonic/gin v1.10.0
+	github.com/go-playground/validator/v10 v10.22.0
+	github.com/gorilla/websocket v1.5.3
+	github.com/gotify/configor v1.0.2
+	github.com/gotify/location v0.0.0-20170722210143-03bc4ad20437
+	github.com/gotify/plugin-api v1.0.0
+	github.com/h2non/filetype v1.1.3
+	github.com/jinzhu/gorm v1.9.16
+	github.com/robfig/cron v1.2.0
+	github.com/stretchr/testify v1.9.0
+	golang.org/x/crypto v0.24.0
+	gopkg.in/yaml.v2 v2.4.0
+)
+
+require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
@@ -46,4 +63,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-go 1.13
+go 1.18
